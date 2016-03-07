@@ -8,6 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		9BAFBB9C1C8CE45F00936603 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9BAFBB9B1C8CE45F00936603 /* main.cpp */; };
+		9BAFBBAA1C8CEFA200936603 /* timer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9BAFBBA81C8CEFA200936603 /* timer.cpp */; };
+		9BAFBBAD1C8CF19400936603 /* word.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9BAFBBAB1C8CF19400936603 /* word.cpp */; };
+		9BAFBBB01C8CF1A600936603 /* data_manager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9BAFBBAE1C8CF1A600936603 /* data_manager.cpp */; };
+		9BAFBBB31C8D001200936603 /* sentence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9BAFBBB11C8D001200936603 /* sentence.cpp */; };
+		9BAFBBB61C8D017E00936603 /* hidden_markov_model.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9BAFBBB41C8D017E00936603 /* hidden_markov_model.cpp */; };
+		9BAFBBB91C8D01AC00936603 /* state.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9BAFBBB71C8D01AC00936603 /* state.cpp */; };
+		9BAFBBBC1C8D0FCB00936603 /* transition.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9BAFBBBA1C8D0FCB00936603 /* transition.cpp */; };
+		9BAFBBBF1C8D13CC00936603 /* state_sequence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9BAFBBBD1C8D13CC00936603 /* state_sequence.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +33,22 @@
 /* Begin PBXFileReference section */
 		9BAFBB981C8CE45F00936603 /* Tagger */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Tagger; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BAFBB9B1C8CE45F00936603 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		9BAFBBA81C8CEFA200936603 /* timer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = timer.cpp; sourceTree = "<group>"; };
+		9BAFBBA91C8CEFA200936603 /* timer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = timer.hpp; sourceTree = "<group>"; };
+		9BAFBBAB1C8CF19400936603 /* word.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = word.cpp; sourceTree = "<group>"; };
+		9BAFBBAC1C8CF19400936603 /* word.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = word.hpp; sourceTree = "<group>"; };
+		9BAFBBAE1C8CF1A600936603 /* data_manager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = data_manager.cpp; sourceTree = "<group>"; };
+		9BAFBBAF1C8CF1A600936603 /* data_manager.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = data_manager.hpp; sourceTree = "<group>"; };
+		9BAFBBB11C8D001200936603 /* sentence.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sentence.cpp; sourceTree = "<group>"; };
+		9BAFBBB21C8D001200936603 /* sentence.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = sentence.hpp; sourceTree = "<group>"; };
+		9BAFBBB41C8D017E00936603 /* hidden_markov_model.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = hidden_markov_model.cpp; sourceTree = "<group>"; };
+		9BAFBBB51C8D017E00936603 /* hidden_markov_model.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = hidden_markov_model.hpp; sourceTree = "<group>"; };
+		9BAFBBB71C8D01AC00936603 /* state.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = state.cpp; sourceTree = "<group>"; };
+		9BAFBBB81C8D01AC00936603 /* state.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = state.hpp; sourceTree = "<group>"; };
+		9BAFBBBA1C8D0FCB00936603 /* transition.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = transition.cpp; sourceTree = "<group>"; };
+		9BAFBBBB1C8D0FCB00936603 /* transition.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = transition.hpp; sourceTree = "<group>"; };
+		9BAFBBBD1C8D13CC00936603 /* state_sequence.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = state_sequence.cpp; sourceTree = "<group>"; };
+		9BAFBBBE1C8D13CC00936603 /* state_sequence.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = state_sequence.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +82,22 @@
 			isa = PBXGroup;
 			children = (
 				9BAFBB9B1C8CE45F00936603 /* main.cpp */,
+				9BAFBBAB1C8CF19400936603 /* word.cpp */,
+				9BAFBBAC1C8CF19400936603 /* word.hpp */,
+				9BAFBBB11C8D001200936603 /* sentence.cpp */,
+				9BAFBBB21C8D001200936603 /* sentence.hpp */,
+				9BAFBBAE1C8CF1A600936603 /* data_manager.cpp */,
+				9BAFBBAF1C8CF1A600936603 /* data_manager.hpp */,
+				9BAFBBA81C8CEFA200936603 /* timer.cpp */,
+				9BAFBBA91C8CEFA200936603 /* timer.hpp */,
+				9BAFBBB41C8D017E00936603 /* hidden_markov_model.cpp */,
+				9BAFBBB51C8D017E00936603 /* hidden_markov_model.hpp */,
+				9BAFBBB71C8D01AC00936603 /* state.cpp */,
+				9BAFBBB81C8D01AC00936603 /* state.hpp */,
+				9BAFBBBD1C8D13CC00936603 /* state_sequence.cpp */,
+				9BAFBBBE1C8D13CC00936603 /* state_sequence.hpp */,
+				9BAFBBBA1C8D0FCB00936603 /* transition.cpp */,
+				9BAFBBBB1C8D0FCB00936603 /* transition.hpp */,
 			);
 			path = Tagger;
 			sourceTree = "<group>";
@@ -118,7 +158,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BAFBBB31C8D001200936603 /* sentence.cpp in Sources */,
+				9BAFBBB91C8D01AC00936603 /* state.cpp in Sources */,
+				9BAFBBBC1C8D0FCB00936603 /* transition.cpp in Sources */,
 				9BAFBB9C1C8CE45F00936603 /* main.cpp in Sources */,
+				9BAFBBAD1C8CF19400936603 /* word.cpp in Sources */,
+				9BAFBBB61C8D017E00936603 /* hidden_markov_model.cpp in Sources */,
+				9BAFBBB01C8CF1A600936603 /* data_manager.cpp in Sources */,
+				9BAFBBAA1C8CEFA200936603 /* timer.cpp in Sources */,
+				9BAFBBBF1C8D13CC00936603 /* state_sequence.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
